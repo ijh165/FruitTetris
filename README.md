@@ -2,7 +2,7 @@
 By Ivan Jonathan Hoo (ihoo@sfu.ca)
 
 # Description
-This is an interactive 2D game combines features from Tetris and Falling Fruits (http://www.wordgames.com/search.html?query=falling+fruits). When a row  is completely  filled,  it  is  removed  and  the  tiles above it will be moved one row down. When three same fruits are in a row or column, they will be removed and the tiles above them  will  be  moved  down. This game is coded in C++ with OpenGL libraries.
+This is an interactive 2D game combines features from Tetris and Falling Fruits (http://www.wordgames.com/search.html?query=falling+fruits). The different fruits are represented by different colors. When a row  is completely  filled,  it  is  removed  and  the  tiles above it will be moved one row down. When three same fruits are in a row or column, they will be removed and the tiles above them  will  be  moved  down. This game is coded in C++ with OpenGL libraries.
 
 # Prerequisites
 This game requires Linux OS with OpenGL libraries installed.
