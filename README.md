@@ -1,4 +1,4 @@
-# CMPT 361 Assignment 1 - FruitTetris implementation=======
+# FruitTetris
 By Ivan Jonathan Hoo
 
 # Description
