@@ -21,7 +21,7 @@ This game requires Linux OS with OpenGL libraries installed.
 - 'R' to restart
 
 # Additional Features
-- Score: 1 point for 3 same color in a row or column and 3 points for a full row (the score will be output in the terminal when the game is over).
+- Score: 1 point for 3 same color in a row or column and 3 points for a full row.
 - To make the game more difficult, I make a restriction that each individual box of the new tile piece must have a different color.
 
 # Known Bugs/Problems
