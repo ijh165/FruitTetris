@@ -1,5 +1,5 @@
 # FruitTetris
-By Ivan Jonathan Hoo
+By Ivan Jonathan Hoo (ihoo@sfu.ca)
 
 # Description
 This game combines features from Tetris and Falling Fruits (http://www.wordgames.com/search.html?query=falling+fruits). When a row  is  completely  filled,  it  is  removed  and  the  tiles above it will be moved one row down. When three same fruits are in a row or column, they will be removed and the tiles above them  will  be  moved  down.
