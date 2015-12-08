@@ -8,7 +8,7 @@ This is an interactive 2D game combines features from Tetris and Falling Fruits 
 This game requires Linux OS with OpenGL libraries installed.
 
 # To run the program
-1. Go to "source_code" folder (type "cd source_codes" in terminal).
+1. Go to "source_code" folder (type "cd source_code" in terminal).
 2. Type "make" in the terminal (ignore all warnings).
 3. Type "./FruitTetris" in the terminal.
 
