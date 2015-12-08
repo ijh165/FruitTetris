@@ -4,7 +4,7 @@ By Ivan Jonathan Hoo (ihoo@sfu.ca)
 # Description
 This game combines features from Tetris and Falling Fruits (http://www.wordgames.com/search.html?query=falling+fruits). When a row  is  completely  filled,  it  is  removed  and  the  tiles above it will be moved one row down. When three same fruits are in a row or column, they will be removed and the tiles above them  will  be  moved  down.
 
-# To run the game:
+# To run the program:
 1. Go to "source_codes" folder (type "cd source_codes" in terminal)
 2. Type "make" in the terminal (ignore all warnings)
 3. Type "./FruitTetris"
