@@ -1,4 +1,4 @@
-# FruitTetris
+# Fruit Tetris
 By Ivan Jonathan Hoo (ihoo@sfu.ca)
 
 # Description
