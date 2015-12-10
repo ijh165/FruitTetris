@@ -9,7 +9,7 @@ Falling Fruits: http://www.wordgames.com/falling-fruits.html
 # Prerequisites
 This game requires Linux OS with OpenGL libraries installed.
 
-# To run the program
+# To play the game
 1. Go to "source_code" folder (type "cd source_code" in terminal).
 2. Type "make" in the terminal (ignore all warnings).
 3. Type "./FruitTetris" in the terminal.
@@ -24,7 +24,7 @@ This game requires Linux OS with OpenGL libraries installed.
 
 # Additional Features
 - Score: 1 point for 3 same color in a row or column and 3 points for a full row.
-- To make the game more difficult, I make a restriction that each individual box of the new tile piece must have a different color.
+- To make the game more difficult, I make a restriction that each individual cell of the new tile piece must have a different color.
 
 # Known Bugs/Problems
 - When there is more than 3 adjacent same colour (for example there are 5 same color in a row or column), the program will only remove three of the cells. This shouldn't really be a problem but this makes the game a bit weird (and harder too).
