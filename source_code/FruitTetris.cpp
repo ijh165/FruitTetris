@@ -22,7 +22,7 @@ int score = 0;
 int xsize = 400; 
 int ysize = 720;
 
-//index of allRotationXshape array (MY OWN ARRAY)
+//index of allRotationXshape array
 int rotationIndex=0;
 
 //special global variable
@@ -67,7 +67,7 @@ bool board[10][20];
 //occupied coordinate array represents coordinate currently occupied by tile (MY OWN ARRAY)
 vec2 occupiedCoor[4];
 
-//colour of current tile from a to d (MY OWN ARRAY)
+//colour of current tile from a to d
 int currentTileColor[4]; //-1 represents black, 0 represents purple, 1 represents red, 2 represents yellow, 3 represents green, 4 represents orange
 
 //cells colours 2D array storing colour of each cell
@@ -92,7 +92,7 @@ GLuint vboIDs[6]; // Two Vertex Buffer Objects for each VAO (specifying vertex p
 
 //-------------------------------------------------------------------------------------------------------------------
 
-void testFunc() //testing funcion (MY OWN FUNCTION)
+void testFunc() //testing function
 {
 	//output board arr
 	cout<<"board arr:\n";
@@ -137,11 +137,7 @@ void updatetile()
 		GLfloat x = tilepos.x + tile[i].x; 
 		GLfloat y = tilepos.y + tile[i].y;
 
-		//==MY CODE==
-
 		occupiedCoor[i]=vec2(x,y);
-
-		//==END MY CODE==
 
 		// Create the 4 corners of the square - these vertices are using location in pixels
 		// These vertices are later converted by the vertex shader
@@ -480,7 +476,7 @@ void shuffleCurrTileColour() //a‐>b, b‐>c, c‐>d, d‐>a (MY OWN FUNCTION)
 	glBindVertexArray(0);
 }
 
-void reverseTileColour() //for "I" and "S" tile rotational purpose only since you ask for 90 degree rotation! (MY OWN FUNCTION)
+void reverseTileColour() //for "I" and "S" tile rotational purpose only since you ask for 90 degree rotation!
 {
 	//-1 represents black, 0 represents purple, 1 represents red, 2 represents yellow, 3 represents green, 4 represents orange
 	int aColor=currentTileColor[0];
@@ -604,7 +600,7 @@ void rotate()
 
 //-------------------------------------------------------------------------------------------------------------------
 
-//change boardcolours array in desired index into desired colour (MY OWN FUNCTION)
+//change boardcolours array in desired index into desired colour
 void updateBoardColours(int y, int x, vec4 desireColour)
 {
 	boardcolours[6*(10*y + x)    ] = desireColour;
@@ -710,7 +706,7 @@ void checkfullrow(int row)
 
 //-------------------------------------------------------------------------------------------------------------------
 
-void checkThreeSameColorRow(int row) //check three consecutive same color cells for the row specified and delete the cells if it exists (MY OWN FUNCTION)
+void checkThreeSameColorRow(int row) //check three consecutive same color cells for the row specified and delete the cells if it exists
 {
 	bool noSimilarColor=true;
 	int startingColnIndex=-1;
@@ -813,7 +809,7 @@ void checkThreeSameColorRow(int row) //check three consecutive same color cells 
 
 }
 
-void checkThreeSameColorColumn(int column) //check three consecutive same color cells for the column specified and delete the cells if it exists (MY OWN FUNCTION)
+void checkThreeSameColorColumn(int column) //check three consecutive same color cells for the column specified and delete the cells if it exists
 {
 	bool noSimilarColor=true;
 	int startingRowIndex=-1;
@@ -916,7 +912,7 @@ void checkThreeSameColorColumn(int column) //check three consecutive same color 
 
 bool checkForAnomaliesBool=false;
 
-void checkForAnomalies(int column) //check for tiles with no support (MY OWN FUNCTION)
+void checkForAnomalies(int column) //check for tiles with no support
 {
 	int indexRow=-1;
 	bool anomaliesExists=false;
@@ -1127,7 +1123,7 @@ void restart()
 
 //-------------------------------------------------------------------------------------------------------------------
 
-//function to display text into GUI (MY OWN FUNCTION)
+//function to display text into GUI
 template<class T>
 void displayText(T str, float x, float y) {
 	stringstream ss(str);
@@ -1356,7 +1352,7 @@ void f3()
 
 //-------------------------------------------------------------------------------------------------------------------
 
-//function to make tile falls automatically (MY OWN FUNCTION)
+//function to make tile falls automatically
 void fallingTileAuto(int data) 
 {
 	glutTimerFunc(FALL_SPEED, fallingTileAuto, -1);
