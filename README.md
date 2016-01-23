@@ -6,7 +6,7 @@ This is an interactive 2D game that combines features from Tetris and Falling Fr
 
 Falling Fruits: http://www.wordgames.com/falling-fruits.html
 
-# Prerequisites
+# System Requirements
 - This game requires Linux OS with GLEW(OpenGL Extension Wrangler Library) installed.
 - Go to http://glew.sourceforge.net/index.html for instructions on how to install GLEW.
 
